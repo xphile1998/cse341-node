@@ -3,4 +3,4 @@ const jokes = require('../controllers/');
 
 routes.get('/', jokes.displayJoke);
 
-modules.export = routes;
+module.export = routes;
