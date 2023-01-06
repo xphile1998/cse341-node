@@ -12,5 +12,14 @@ routes.get('/jack', (req, res) => {
 routes.get('/thomas', (req, res) => {
     res.send('Thomas Whitefield');
 });
+routes.get('/robert', (req, res) => {
+    res.send('Robert Whitefield');
+});
+routes.get('/beth', (req, res) => {
+    res.send('Elisabeth Whitefield');
+});
+routes.get('/patrick', (req, res) => {
+    res.send('Patrick Whitefield');
+});
 
 module.exports = routes;
