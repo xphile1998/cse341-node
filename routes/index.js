@@ -9,5 +9,8 @@ routes.get('/eron', (req, res) => {
 routes.get('/jack', (req, res) => {
     res.send('Jack Whitefield');
 });
+routes.get('/thomas', (req, res) => {
+    res.send('Thomas Whitefield');
+});
 
 module.exports = routes;
