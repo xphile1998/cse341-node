@@ -10,4 +10,4 @@ routes.get('/jack', (req, res) => {
     res.send('Jack Whitefield');
 });
 
-module.export = routes;
+module.exports = routes;
