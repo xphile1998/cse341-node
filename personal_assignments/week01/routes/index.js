@@ -21,5 +21,8 @@ routes.get('/beth', (req, res) => {
 routes.get('/patrick', (req, res) => {
     res.send('Patrick Whitefield');
 });
+routes.get('/week02', (req, res) => {
+    res.send('Week 2 Team Assignment Placeholder');
+});
 
 module.exports = routes;
