@@ -1,7 +1,10 @@
-const routes = require('express').Router();
+const express = require("express");
 
-routes.get('/', (req, res) => {
-    res.send('Week 2 Team Assignment Placeholder');
-});
+const professionalController = require("../controllers/professional");
 
-module.exports = routes;
+const router = express.Router();
+
+// GET /feed/posts
+router.get("/", professionalController.getData);
+// localhost:8080/professional/
+module.exports = router;
