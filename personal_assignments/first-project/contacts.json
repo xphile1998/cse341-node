@@ -1,0 +1,23 @@
+{
+    "contact1": {
+        "firstName": "Annette",
+        "lastName": "Whitefield",
+        "email": "tannettew@msn.com",
+        "favoriteColor": "Green",
+        "birthday": "03/08/1970"
+    },
+    "contact2" : {
+        "firstName": "Daniel",
+        "lastName": "Coonrod",
+        "email": "danielmartz@gmail.com",
+        "favoriteColor": "Black",
+        "birthday": "10/09/1980"
+    },
+    "contact3" : {
+        "firstName": "Debbie",
+        "lastName": "Ashment",
+        "email": "dashment1977@gmail.com",
+        "favoriteColor": "Blue",
+        "birthday": "04/27/1977"
+    }
+}
