@@ -54,7 +54,7 @@ DELETE http://localhost:8080/contacts/63cc39ae9a9c0310220c769d HTTP/1.1
 GET https://ejw-week02.onrender.com/contacts
 
 ### Get contact by id
-GET https://ejw-week02.onrender.com/contacts/63cc393bca440b2de5c5be4a
+GET https://ejw-week02.onrender.com/contacts/63c2683c355744f60488f85f
 
 ### Create contact
 POST https://ejw-week02.onrender.com/contacts HTTP/1.1
@@ -93,4 +93,4 @@ content-type: application/json
 }
 
 ### DELETE contact
-DELETE https://ejw-week02.onrender.com/contacts/63cc393bca440b2de5c5be4a HTTP/1.1
+DELETE https://ejw-week02.onrender.com/contacts/63cc400cb151c72e4d4bdc35 HTTP/1.1
