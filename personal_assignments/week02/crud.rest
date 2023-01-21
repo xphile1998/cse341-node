@@ -1,4 +1,6 @@
-// LOCALHOST
+// ============================================================================================
+// LOCALHOST Deploy
+// ============================================================================================
 ### Get all contacts
 GET http://localhost:8080/contacts
 
@@ -29,11 +31,25 @@ content-type: application/json
     "birthday":"12/05/1992"
 }
 
+### re-PUT contact (put back the original entry)
+PUT http://localhost:8080/contacts/63c2683c355744f60488f860 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Daniel",
+    "lastName":"Coonrod",
+    "email":"danielmartz@gmail.com",
+    "favoriteColor":"Black",
+    "birthday":"10/09/1980"
+}
+
 ### DELETE contact
 DELETE http://localhost:8080/contacts/6220b775099269ff7b31ceab HTTP/1.1
 
 
+// ============================================================================================
 // PRODUCTION Deploy
+// ============================================================================================
 ### Get all contacts
 GET https://ejw-week02.onrender.com/contacts
 
@@ -62,6 +78,18 @@ content-type: application/json
     "email":"test@email.com",
     "favoriteColor":"Hazel",
     "birthday":"06/05/1992"
+}
+
+### re-PUT contact (put back the original entry)
+PUT https://ejw-week02.onrender.com/contacts/63c2683c355744f60488f860 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Daniel",
+    "lastName":"Coonrod",
+    "email":"danielmartz@gmail.com",
+    "favoriteColor":"Black",
+    "birthday":"10/09/1980"
 }
 
 ### DELETE contact
