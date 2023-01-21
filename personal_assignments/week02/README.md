@@ -8,5 +8,7 @@ Test the endpoints in the routes.rest file with Rest Client or another similar t
 
 ### Links
 GitHub: https://github.com/xphile1998/cse341-node/tree/main/personal_assignments/week02
+
 Render: https://ejw-week02.onrender.com
+
 YouTube: https://youtu.be/KWTCSCUysPI
