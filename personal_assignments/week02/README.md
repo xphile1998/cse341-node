@@ -1,5 +1,5 @@
 # cse341-node
-## Week 2 Personal Assignment
+## Week 3 Personal Assignment
 Author: Eron Whitefield
 ### How To Run It
 Run npm install and npm start from the backend folder in the terminal
@@ -9,6 +9,6 @@ Test the endpoints in the routes.rest file with Rest Client or another similar t
 ### Links
 GitHub: https://github.com/xphile1998/cse341-node/tree/main/personal_assignments/week02
 
-Render: https://ejw-week02.onrender.com
+Render: https://ejw-week02.onrender.com/contacts
 
-YouTube: https://youtu.be/KWTCSCUysPI
+YouTube: https://youtu.be/GCdqd-dwBnk
