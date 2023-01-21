@@ -7,6 +7,6 @@ Run npm install and npm start from the backend folder in the terminal
 Test the endpoints in the routes.rest file with Rest Client or another similar tool.
 
 ### Links
-GitHub: https://github.com/xphile1998/cse341-node/tree/main/personal_assignments/week02
-Render: https://ejw-week02.onrender.com
-YouTube: https://youtu.be/KWTCSCUysPI
+GitHub: https://github.com/xphile1998/cse341-node/tree/main/personal_assignments/week02/n
+Render: https://ejw-week02.onrender.com/n
+YouTube: https://youtu.be/KWTCSCUysPI/n
