@@ -3,11 +3,12 @@
 GET http://localhost:8080/contacts
 
 ### Get contact by id
-GET http://localhost:8080/contacts/622023f642f9ab4cd6e060b3
+GET http://localhost:8080/contacts/63c2683c355744f60488f85f
 
 ### Create contact
 POST http://localhost:8080/contacts HTTP/1.1
 content-type: application/json
+
 {
     "firstName":"Dana",
     "lastName":"Kellet",
@@ -17,8 +18,9 @@ content-type: application/json
 }
 
 ### PUT contact
-PUT http://localhost:8080/contacts/6220bcb39cd507e920c75a0b HTTP/1.1
+PUT http://localhost:8080/contacts/63c2683c355744f60488f860 HTTP/1.1
 content-type: application/json
+
 {
     "firstName":"Robert",
     "lastName":"Whitefield",
@@ -30,16 +32,18 @@ content-type: application/json
 ### DELETE contact
 DELETE http://localhost:8080/contacts/6220b775099269ff7b31ceab HTTP/1.1
 
+
 // PRODUCTION Deploy
 ### Get all contacts
-GET https://cse341-instructor.herokuapp.com/contacts
+GET https://ejw-week02.onrender.com/contacts
 
 ### Get contact by id
-GET https://cse341-instructor.herokuapp.com/contacts/622023f642f9ab4cd6e060b3
+GET https://ejw-week02.onrender.com/contacts/63c2683c355744f60488f85f
 
 ### Create contact
-POST https://cse341-instructor.herokuapp.com/contacts HTTP/1.1
+POST https://ejw-week02.onrender.com/contacts HTTP/1.1
 content-type: application/json
+
 {
     "firstName":"Dana",
     "lastName":"Kellet",
@@ -49,15 +53,16 @@ content-type: application/json
 }
 
 ### PUT contact
-PUT https://cse341-instructor.herokuapp.com/contacts/6220bcb39cd507e920c75a0b HTTP/1.1
+PUT https://ejw-week02.onrender.com/contacts/63c2683c355744f60488f860 HTTP/1.1
 content-type: application/json
+
 {
     "firstName":"Robert",
     "lastName":"Whitefield",
     "email":"test@email.com",
-    "favoriteColor":"Green",
-    "birthday":"12/05/1992"
+    "favoriteColor":"Hazel",
+    "birthday":"06/05/1992"
 }
 
 ### DELETE contact
-DELETE https://cse341-instructor.herokuapp.com/contacts/6220e34083149913680f9a64 HTTP/1.1
+DELETE https://ejw-week02.onrender.com/contacts/6220e34083149913680f9a64 HTTP/1.1

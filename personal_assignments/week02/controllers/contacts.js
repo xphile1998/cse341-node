@@ -18,4 +18,24 @@ const getSingle = async (req, res) => {
   });
 };
 
-module.exports = { getAll, getSingle };
+const createContact = async (req, res) => {
+  const contact = {
+    firstName: req.body.firstName,
+    lastName: req.body.lastName,
+    email: req.body.email,
+    favoriteColor: req.body.favoriteColor,
+    birthday: req.body.birthday
+  };
+  const response = await mongodb.getDb().db().collection('contacts').insertOne(contact);
+  if (response.acknowledged) {
+    res.status(201).json(response);
+  } else {
+    res.status(500).json(response.error || 'An error occurred while creating this record.');
+  }
+};
+
+module.exports = { 
+  getAll, 
+  getSingle, 
+  createContact 
+};

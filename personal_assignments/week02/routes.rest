@@ -10,10 +10,10 @@ GET http://localhost:8080/contacts/63c2683c355744f60488f861
 
 // PRODUCTION Deployment
 ###
-GET http://localhost:8080/contacts
+GET https://ejw-week02.onrender.com/contacts
 ###
-GET http://localhost:8080/contacts/63c2683c355744f60488f85f
+GET https://ejw-week02.onrender.com/contacts/63c2683c355744f60488f85f
 ###
-GET http://localhost:8080/contacts/63c2683c355744f60488f860
+GET https://ejw-week02.onrender.com/contacts/63c2683c355744f60488f860
 ###
-GET http://localhost:8080/contacts/63c2683c355744f60488f861
+GET https://ejw-week02.onrender.com/contacts/63c2683c355744f60488f861
