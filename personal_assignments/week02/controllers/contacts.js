@@ -36,7 +36,7 @@ const createContact = async (req, res) => {
 
 const updateContact = async (req, res) => {
   const userId = new ObjectId(req.params.id);
-  
+
   const contact = {
     firstName: req.body.firstName,
     lastName: req.body.lastName,
@@ -51,11 +51,24 @@ const updateContact = async (req, res) => {
   } else {
     res.status(500).json(response.error || 'An error occurred while updating this record.');
   }
-}
+};
+
+const deleteContact = async (req, res) => {
+  const userId = new ObjectId(req.params.id);
+
+  const response = await mongodb.getDb().db().collection('contacts').remove({ _id: userId }, true);
+  console.log(response);
+  if (response.deletedCount > 0) {
+    res.status(204).send();
+  } else {
+    res.status(500).json(response.error || 'An error occurred while deleting this record.');
+  }
+};
 
 module.exports = { 
   getAll, 
   getSingle, 
   createContact,
-  updateContact
+  updateContact, 
+  deleteContact
 };

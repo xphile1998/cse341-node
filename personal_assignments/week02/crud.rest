@@ -44,7 +44,7 @@ content-type: application/json
 }
 
 ### DELETE contact
-DELETE http://localhost:8080/contacts/6220b775099269ff7b31ceab HTTP/1.1
+DELETE http://localhost:8080/contacts/63cc2e6527d164fb649f8b09 HTTP/1.1
 
 
 // ============================================================================================
@@ -93,4 +93,4 @@ content-type: application/json
 }
 
 ### DELETE contact
-DELETE https://ejw-week02.onrender.com/contacts/6220e34083149913680f9a64 HTTP/1.1
+DELETE https://ejw-week02.onrender.com/contacts/63cc2e6527d164fb649f8b09 HTTP/1.1
