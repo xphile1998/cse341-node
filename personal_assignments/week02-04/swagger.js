@@ -6,8 +6,8 @@ const doc = {
     description: 'Contacts API',
   },
   // host: 'localhost:8080',
-  host: 'https://ejw-week02.onrender.com',
-  schemes: ['http']
+  host: 'ejw-week02.onrender.com',
+  schemes: ['https']
 };
 
 const outputFile = './swagger.json';
