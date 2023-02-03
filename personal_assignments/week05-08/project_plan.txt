@@ -1,0 +1,8 @@
+1. Pick a project
+2. Model the data for JSON
+3. Create my JSON data
+4. Create the swagger yaml schema
+5. Create the swagger API documentation
+6. Download to the swagger.json file
+7. Mongoose
+8. Created mongoose schema from JSON

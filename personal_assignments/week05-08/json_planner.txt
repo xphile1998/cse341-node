@@ -1,0 +1,22 @@
+User
+    userName                 String UNIQUE
+    _id                     | MongoDB_ID
+    password                | String HASHED
+    firstName               | String
+    lastName                | String
+    emailAddress            | String
+    preferredLanguage       | String
+    city                    | String
+    state                   | String
+    country                 | String
+    publicProfile           | Boolean (Y/n)
+    
+Recipe
+    recipeName              | String
+    _id                     | MongoDB_ID
+    keywords                | String
+    prepTime                | Number
+    cookTime                | Number
+    ingredients             | String
+    instructions            | String
+    category                | String
