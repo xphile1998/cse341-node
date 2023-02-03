@@ -5,8 +5,8 @@ const doc = {
     title: 'My API',
     description: 'Recipes API',
   },
-  // host: 'localhost:8080',
-  host: 'ejw-week02.onrender.com',
+  host: 'localhost:8080',
+  // host: 'ejw-week02.onrender.com',
   schemes: ['https']
 };
 
