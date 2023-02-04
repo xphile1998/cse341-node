@@ -3,7 +3,7 @@ const swaggerAutogen = require('swagger-autogen')();
 const doc = {
   info: {
     title: 'My API',
-    description: 'Recipes API',
+    description: 'Cookbook API',
   },
   host: 'localhost:8080',
   // host: 'ejw-week02.onrender.com',
