@@ -14,9 +14,10 @@ User
 Recipe
     recipeName              | String
     _id                     | MongoDB_ID
+    description             | String
     keywords                | String
     prepTime                | Number
     cookTime                | Number
-    ingredients             | String
-    instructions            | String
+    ingredients             | String []
+    instructions            | String []
     category                | String

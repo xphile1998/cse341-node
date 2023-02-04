@@ -1,0 +1,33 @@
+{
+    "recipe": {
+      "recipeName": "Broccoli Salad",
+      "description": "A cool way to make a sweet summer treat!",
+      "source": "Eron Whitefield",
+      "servings": 4,
+      "prepTime": 20,
+      "cookTime": 0,
+      "category": "salad",
+      "keywords": [
+        "broccoli",
+        "mayonaise",
+        "fruit",
+        "nuts",
+        "side dish"
+      ],
+      "ingredients": [
+        "1/2 cup mayonaise",
+        "8 tsp honey",
+        "4 tsp apple cider vinegar",
+        "16 oz bag of broccoli florets, washed",
+        "1/2 cup dried fruit, diced",
+        "1/4 cup finely chopped walnuts or pecans",
+        "1/4 cup grated cheddar cheese",
+        "1/2 cup cooked bacon, finely chopped"
+      ],
+      "instructions": [
+        "Mix together in a large the mayonaise, honey, and vinegar until well blended.",
+        "Add in the florets, cranberries, bacon, and cheese. Mix together until everything is well coated.",
+        "Chill in the refrigerator for 30 minutes. Stir and then serve."
+      ]
+    }
+}

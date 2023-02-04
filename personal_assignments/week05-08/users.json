@@ -1,0 +1,14 @@
+{
+    "user": {
+      "userName": "xphile1998",
+      "password": "pass1234",
+      "firstName": "Eron",
+      "lastName": "Whitefield",
+      "emailAddress": "xphile1998@gmail.com",
+      "preferredLanguage": "English",
+      "city": "Henderson",
+      "state": "Nevada",
+      "country": "USA",
+      "public": true
+    }
+}
