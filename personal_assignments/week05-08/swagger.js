@@ -5,9 +5,9 @@ const doc = {
     title: 'My API',
     description: 'Cookbook API',
   },
-  host: 'localhost:8080',
-  // host: 'ejw-week02.onrender.com',
-  schemes: ['https']
+  // host: 'localhost:8080',
+  host: 'ejw-week05to08.onrender.com',
+  schemes: ['http', 'https']
 };
 
 const outputFile = './swagger.json';
