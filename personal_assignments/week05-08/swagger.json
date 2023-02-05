@@ -1,7 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "My API",
+    "title": "Cookbook API",
     "description": "Cookbook API",
     "version": "1.0.0"
   },
@@ -30,9 +30,61 @@
             "description": "OK"
           }
         }
+      },
+      "post": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "recipeName": {
+                  "example": "any"
+                },
+                "description": {
+                  "example": "any"
+                },
+                "source": {
+                  "example": "any"
+                },
+                "servings": {
+                  "example": "any"
+                },
+                "prepTime": {
+                  "example": "any"
+                },
+                "cookTime": {
+                  "example": "any"
+                },
+                "category": {
+                  "example": "any"
+                },
+                "keywords": {
+                  "example": "any"
+                },
+                "ingredients": {
+                  "example": "any"
+                },
+                "instructions": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
       }
     },
-    "/recipes/recipes/{id}": {
+    "/recipes/{id}": {
       "get": {
         "description": "",
         "produces": [
@@ -130,61 +182,7 @@
         }
       }
     },
-    "/recipes/recipes": {
-      "post": {
-        "description": "",
-        "parameters": [
-          {
-            "name": "body",
-            "in": "body",
-            "schema": {
-              "type": "object",
-              "properties": {
-                "recipeName": {
-                  "example": "any"
-                },
-                "description": {
-                  "example": "any"
-                },
-                "source": {
-                  "example": "any"
-                },
-                "servings": {
-                  "example": "any"
-                },
-                "prepTime": {
-                  "example": "any"
-                },
-                "cookTime": {
-                  "example": "any"
-                },
-                "category": {
-                  "example": "any"
-                },
-                "keywords": {
-                  "example": "any"
-                },
-                "ingredients": {
-                  "example": "any"
-                },
-                "instructions": {
-                  "example": "any"
-                }
-              }
-            }
-          }
-        ],
-        "responses": {
-          "201": {
-            "description": "Created"
-          },
-          "500": {
-            "description": "Internal Server Error"
-          }
-        }
-      }
-    },
-    "/users/users": {
+    "/users/": {
       "get": {
         "description": "",
         "produces": [
@@ -250,7 +248,7 @@
         }
       }
     },
-    "/users/users/{id}": {
+    "/users/{id}": {
       "get": {
         "description": "",
         "produces": [
