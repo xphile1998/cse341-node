@@ -10,6 +10,6 @@ Test the endpoints in the routes.rest file with Rest Client or another similar t
 ### Links
 GitHub: https://github.com/xphile1998/cse341-node/tree/main/personal_assignments/week05-08
 
-Render: https://ejw-week02.onrender.com/api-docs
+Render: https://ejw-week05to08.onrender.com/api-docs
 
-YouTube: https://youtu.be/jdESdyZ9RI4
+YouTube: https://youtu.be/Ovc_PVTzvbQ
