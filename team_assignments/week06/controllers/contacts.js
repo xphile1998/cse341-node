@@ -11,7 +11,7 @@ const getAll = (req, res) => {
       if (err) {
         res.status(400).json({message: err});
       }
-      res.setHeader('Content-Type', 'aaplication/json');
+      res.setHeader('Content-Type', 'application/json');
       res.status(200).json(lists);
     });
 };
@@ -30,7 +30,7 @@ const getSingle = (req, res) => {
       if (err) {
         res.status(400).json({message: err});
       }
-      res.setHeader('Content-Type', 'aaplication/json');
+      res.setHeader('Content-Type', 'application/json');
       res.status(200).json(lists);
     });
 };
