@@ -8,10 +8,10 @@ router.get('/', userController.getAll);
 
 router.get('/:id', userController.getSingle);
 
-router.post('/', validation.saveContact, userController.createContact);
+router.post('/', validation.saveUser, userController.createUser);
 
-router.put('/:id', validation.saveContact, userController.updateContact);
+router.put('/:id', validation.saveUser, userController.updateUser);
 
-router.delete('/:id', userController.deleteContact);
+router.delete('/:id', userController.deleteUser);
 
 module.exports = router;
