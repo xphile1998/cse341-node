@@ -20,12 +20,12 @@ const getSingle = (req, res) => {
   if (!ObjectId.isValid(req.params.id)) {
     res.status(400).json('Must use a valid recipe id to find a recipe.');
   }
-  const userId = new ObjectId(req.params.id);
+  const recipeId = new ObjectId(req.params.id);
   mongodb
     .getDb()
     .db()
     .collection('recipes')
-    .find({ _id: userId})
+    .find({ _id: recipeId})
     .toArray((err, result) => {
       if (err) {
         res.status(400).json({message: err});
