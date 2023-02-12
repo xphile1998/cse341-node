@@ -1,0 +1,34 @@
+{
+    "recipeName": "Mom's Chicken Enchiladas",
+    "desription": "A family favorite with our kids!",
+    "source": "Whitefield Family Cookbook",
+    "servings": 6,
+    "prepTime": 60,
+    "cookTime": 30,
+    "category": "Dinner",
+    "keywords": [
+        "chicken",
+        "cheese",
+        "Mexican",
+        "main dish"
+    ],
+    "ingredients": [
+      "4 cups cooked chicken, shredded",
+      "1 27oz can green Hatch chiles enchilada sauce",
+      "1 can cream of chicken soup",
+      "1 cup sour cream",
+      "2 cups shredded cheddar cheese",
+      "2 4oz cans of black olives, sliced",
+      "12 flour tortillas, soft taco sized"
+    ],
+    "instructions": [
+      "Preheat oven to 325 degrees F.",
+      "Mix together in a bowl the chicken, half the cheese, and a quarter of the enchilada sauce, and 1 can of the olives.",
+      "Mix together in a separate bowl the remaining enchilada sauce, half of the remaining cheese, the sour cream, and the soup until thoroughly combined.",
+      "Place a large spoonful of the sauce mixture in the center of a dinner plate. Next place a tortilla in the sauce, completely coating the side. Flip the tortilla over and cover the other side.",
+      "Place a scoop of the chicken mixture on one half of the tortilla and then roll tightly. Place the rolled enchilada into a 13 x 9 baking dish that has been lightly coated with the sauce mixture. Repeat the last two steps until you have filled all 12 tortillas.", 
+      "Pour remaining sauce over the enchiladas. Sprinkle with the remaining cheese and sliced olives. Place dish in the oven.",
+      "Bake for 20-30 minutes, until the cheese has melted and the edges of the enchiladas just start to crisp up and turn brown.", 
+      "Remove from oven and let rest for 10 minutes before serving."
+    ]
+  }
