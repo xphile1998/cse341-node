@@ -57,6 +57,9 @@ const createUser = async (req, res) => {
 };
 
 const updateUser = async (req, res) => {
+  if (!ObjectId.isValid(req.params.id)) {
+    res.status(400).json('You must use a valied user ID to update a user.');
+  }
   const userId = new ObjectId(req.params.id);
 
   const user = {
@@ -81,6 +84,9 @@ const updateUser = async (req, res) => {
 };
 
 const deleteUser = async (req, res) => {
+  if (!ObjectId.isValid(req.params.id)) {
+    res.status(400).json('You must use a valied user ID to delete a user.');
+  }
   const userId = new ObjectId(req.params.id);
 
   const response = await mongodb.getDb().db().collection('users').deleteOne({ _id: userId }, true);

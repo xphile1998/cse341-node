@@ -57,6 +57,9 @@ const createRecipe = async (req, res) => {
 };
 
 const updateRecipe = async (req, res) => {
+  if (!ObjectId.isValid(req.params.id)) {
+    res.status(400).json('You must use a valied recipe ID to update a recipe.');
+  }
   const userId = new ObjectId(req.params.id);
 
   const recipe = {
@@ -81,6 +84,9 @@ const updateRecipe = async (req, res) => {
 };
 
 const deleteRecipe = async (req, res) => {
+  if (!ObjectId.isValid(req.params.id)) {
+    res.status(400).json('You must use a valied recipe ID to delete a recipe.');
+  }  
   const userId = new ObjectId(req.params.id);
 
   const response = await mongodb.getDb().db().collection('recipes').deleteOne({ _id: userId }, true);
