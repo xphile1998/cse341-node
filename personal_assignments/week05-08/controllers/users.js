@@ -31,7 +31,7 @@ const getSingle = (req, res) => {
         res.status(400).json({message: err});
       }
       res.setHeader('Content-Type', 'application/json');
-      res.status(200).json(lists);
+      res.status(200).json(result[0]);
     });
 };
 
