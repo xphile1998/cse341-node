@@ -28,11 +28,16 @@ const saveUser = (req, res, next) => {
 
 const saveRecipe = (req, res, next) => {
   const validationRule = {
-    firstName: "required|string",
-    lastName: "required|string",
-    email: "required|email",
-    favoriteColor: "required|string",
-    birthday: "string",
+    recipeName: "required|string",
+    description: "string",
+    source: "string",
+    servings: "required|integer",
+    prepTime: "required|integer",
+    cookTime: "required|integer",
+    category: "required|string",
+    keywords: "string",
+    ingredients: "required|string",
+    instructions: "required|string"
   };
   validator(req.body, validationRule, {}, (err, status) => {
     if (!status) {
