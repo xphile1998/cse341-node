@@ -1,0 +1,4 @@
+1. It seems like you have everything in place. It's hard to say where things are going south in your source code without looking at the logs. However, the fact Post and Put don't work is telling me that there might be something wrong with your Validation Middleware. 
+2. Missing Error Handling. The IF check that you have to validate the params ID is more like Data Validation, not Error Handling. Try Adding a Try/catch block in your controllers to implement Error Handling. If you're struggling to fix the error, Hop in during lab hours. We can figure it out. 
+Besides, I hope your family member will recover soon. May God Bless y'all. Take Care! 
+PS: If you want to re-submit the assignment with all the changes by all means go for it. I would be happy to-regrade it.
