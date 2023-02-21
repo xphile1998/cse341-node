@@ -11,7 +11,7 @@ const saveUser = (req, res, next) => {
     city: "string",
     state: "string",
     country: "required|string",
-    public: "required|boolean",
+    public: "required|boolean"
   };
   validator(req.body, validationRule, {}, (err, status) => {
     if (!status) {
@@ -37,7 +37,7 @@ const saveRecipe = (req, res, next) => {
     category: "required|string",
     keywords: "string",
     ingredients: "required|string",
-    instructions: "required|string",
+    instructions: "required|string"
   };
   validator(req.body, validationRule, {}, (err, status) => {
     if (!status) {
