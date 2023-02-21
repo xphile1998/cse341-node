@@ -19,7 +19,8 @@
     "mongodb": "4.13",
     "node": "^19.6.0",
     "swagger-ui-express": "^4.6.0",
-    "validatejs": "^0.0.2"
+    "validatejs": "^0.0.2",
+    "validatorjs": "^3.22.1"
   },
   "devDependencies": {
     "eslint": "^8.34.0",
